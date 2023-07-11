@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>myFlowerShop</title>
+  <style>
+    
+    .header{
+      background-color: rgb(250, 231, 234);
+      width: 1410px;
+    }
+    .welcome{
+      margin-top: 120px;
+      width: 600px;
+    }
+    .text1{
+      padding-left: 180px;
+    }
+    .boldSection{
+      
+      font-size: 50px;
+      font-weight: 900;
+
+    }
+    .notBold{
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    .flower1{
+      width: 800px;
+    }
+    .shopNow{
+      margin-top: 30px;
+      height: 40px;
+      width: 120px;
+      border: none;
+      background-color: rgb(248, 81, 109);
+      border-color: rgb(248, 81, 109);
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .shopNow:hover{
+      color:rgb(248, 81, 109);
+      background-color: white;
+      border-color:pink;
+      height: 60px;
+      width: 180px;
+      transition: .5s;
+    }
+    .flower1{
+      display: flex;
+      flex: 1;
+      margin-bottom: 0px;
+      
+    }
+    .image1{
+      width: 400px;
+      padding-bottom: 0;
+      padding-left: 300px;
+    }
+
+    .mainBody{
+      width: 1410px;
+    }
+    .title2{
+      text-align: center;
+      margin-top: 130px;
+      
+    }
+    .bolded{
+      text-align: center;
+      font-weight: bolder;
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+    .notBolded{
+      text-align: center;
+      font-size: 15px;
+      margin-top: 0px;
+      
+    }
+
+    .flowers2{
+      width: 1410px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .flowerOne{
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px;
+      margin-top: 0px;
+      height: 385px;
+      width: 305px;
+      display: inline-block;
+      background-color: lightpink;
+      margin-right: 10px;
+    }
+    .flower1pic{
+      padding-top: 105px;
+      width: 250px;
+      height: 280px;
+    }
+    .flowerTwo{
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px;
+      height: 385px;
+      width: 305px;
+      display: inline-block;
+      background-color: lightblue;
+      margin-right: 10px;
+
+    }
+    .flower2pic{
+      padding-top: 105px;
+      width: 250px;
+      height: 280px;
+    }
+    .flowerThree{
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px;
+      height: 385px;
+      width: 305px;
+      display: inline-block;
+      background-color: lightgreen;
+      margin-right: 10px;
+
+      
+    }
+    .flower3pic{
+      width: 250px;
+      height: 280px;
+      padding-top: 105px;
+    }
+
+    .deliveryInfo{
+      margin-left: 160px;
+      margin-top: 40px;
+      text-align: center;
+      width: 1080px;
+      height: 280px;
+      background-color: rgb(232, 229, 229);
+    }
+
+    .sdd{
+    
+      padding-top: 100px;
+      padding-right: 150px;
+      display: inline-block;
+    }
+    .freshFlowers{
+ 
+      padding-top: 100px;
+      padding-right: 150px;
+      display: inline-block;
+    }
+    .support24{
+      padding-top: 100px;
+      padding-right: 40px;
+      display: inline-block;
+    }
+    .offerInfo{
+      margin-top: 50px;
+      width: 1440px;
+      height: 400px;
+      background-color: rgb(251, 226, 230);
+    }
+    .offerWritings{
+      height: 100px;
+      padding-bottom: 200px;
+      padding-left: 280px;
+      margin-top: 0;
+      width: 600px;
+      display: inline-block;
+      text-align: center;
+    }
+    .bold2{
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 600;
+      padding-bottom: 50px;
+    }
+    .off{
+      color: rgb(246, 83, 110);
+    }
+    .notBold2{
+      font-size: 15px;
+    }
+    .signUpButton{
+      margin-top: 30px ;
+      height: 40px;
+      width: 90px;
+      font-size: 18px;
+      color: white;
+      background-color: rgb(228, 102, 123);
+      border-color: rgb(228, 102, 123);
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+    }
+    .signUpButton:hover{
+      color: rgb(228, 102, 123) ;
+      border-color: rgb(228, 102, 123);
+      background-color: white;
+      height: 60px;
+      width: 120px;
+      transition: .5s;
+    }
+    .flower4{
+      display: inline-block;
+      height: 220px;
+      width: 318px;
+      margin-top: 50px;
+    }
+    .insta{
+      margin-top: 50px;
+    }
+    .flower4Picture{
+      height: 220px;
+      width: 200px;
+    }
+    .instaWritings{
+      text-align: center;
+      padding-bottom: 0px;
+    }
+    .instaShortWritings{
+      padding-top: 0px;
+    
+    }
+
+    .instaImages{
+      margin-top: 30px;
+      height: 440px;
+    }
+    .insta1{
+      display: inline-block;
+      width:340px ;
+      height: 400px;
+    }
+    .insta2{
+      display: inline-block;
+      width: 340px;
+    }
+    .insta3{
+      display: inline-block;
+      width: 340px;
+    }
+    .insta4{
+      display: inline-block;
+      width: 330px;
+    }
+    .insta1pic{
+      width:340px ;
+      height: 400px;
+    }
+    .insta2pic{
+      width:340px ;
+      height: 400px;
+    }
+    .insta3pic{
+      width:340px ;
+      height: 400px;
+    }
+    .insta4pic{
+      width:330px ;
+      height: 400px;
+    }
+    .latestDeal{
+      width: 1080px;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: 150px;
+      text-align: center;
+      
+    }
+    .lastImage{
+      width: 1080px;
+     
+      position: relative;
+    }
+
+    .absoluteWriting{
+      top: 10px;
+      bottom: 20px;
+      text-align: center;
+      position: absolute;
+      padding-left: 250px;
+      padding-top: 2650px;
+    }
+    .searchBox{
+      width: 480px;
+      margin-top: 30px;
+      height: 50px;
+      border: none;
+      padding-left: 10px;
+      border-radius: 8px;
+    }
+    .subscribe{
+      height: 50px;
+      width: 120px;
+      background-color: rgb(248, 121, 142);
+      border-color: rgb(248, 121, 142);
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .subscribe:hover{
+      color:rgb(248, 121, 142) ;
+      background-color: white;
+      transition: .5s;
+    }
+    .subscribe:active{
+      width: 140px;
+      transition: .15s;
+    }
+
+    .footer{
+      
+      background-color: black;
+      color: white;
+      width: 1440px;
+      text-align: center;
+      height: 250px;
+    }
+    .flowerShop{
+      font-size: 60px;
+      font-weight: bolder;
+      padding-bottom: 0px;
+    }
+    .floweR{
+      color: rgb(248, 121, 142);
+      padding-bottom:0px;
+    }
+    .lastPart{
+      color: rgb(221, 221, 239);
+      padding-top: 0px;
+      font-size: 16px;
+    }
+  </style>
+
+</head>
+<body>
+  <header class="header">
+    <div style="display: flex;">
+      <div class="welcome">
+        <div class="text1"> 
+          <span class="boldSection">Let's make beautiful flowers a part of your life.</span>
+          <br>
+          <div class="notBold">
+            <span class="text2" >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</span>
+          </div>
+          <button class="shopNow">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="flower1"> 
+        <img class="image1" src="images/pngwing 10.png">
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="mainBody">
+      <div class="title2">
+        <p class="bolded">Our Featured Flowers</p>
+        
+        <p class="notBolded">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      </div>
+     </div>
+
+     <div class="flowers2">
+        <div class="flowerOne">
+          <img class="flower1pic" src="images/pngwing 6.png" >
+          <p class="imageOneText"> Pink Tulip</p>
+        </div>
+        <div class="flowerTwo">
+          <img class="flower2pic" src="images/pngwing 5.png" >
+          <p class="imageTwoText" > Colorful Anemone</p>
+        </div>
+        <div class="flowerThree" class="flowerThree">
+          <img class="flower3pic" src="images/pngwing 7.png">
+          <p class="imageThreeText"> Yellow Tulip</p>
+        </div>
+     </div>
+
+
+     <div class="deliveryInfo">
+      <div class="sdd">
+        <img src="images/Group 57.png" >
+        <h5>Same day delivery.Click &collect</h5>
+      </div>
+      <div class="freshFlowers">
+        <img src="images/Group 58.png" >
+        <h5>Fresh Flowers. Local Growers</h5>
+      </div>      
+      <div class="support24">
+        <img src="images/Group 59.png" >
+        <h5>24/7 Free Support.</h5>
+      </div>
+     </div>
+
+     <div>
+      <div class="offerInfo">
+        <div class="offerWritings">
+          <span class="bold2"> Hot Deal! Sale Up To 25% <span class="off">off</span></span>
+        <br>
+        <span class="notBold2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>
+        <br>
+        <button class="signUpButton"> Sign Up</button>
+
+        </div>
+        
+        <div class="flower4">
+          <div class="flower4"><img class="flower4Picture" src="images/pngwing 8.png" alt=""></div>
+         </div>
+      </div>
+
+       
+     </div>
+     <div class="insta">
+        <div class="instaWritings">
+          <h3>Instagram</h3>
+        
+          <h5 class="instaShortWritings">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</h5>
+        </div>
+
+        <div class="instaImages">
+          <div class="insta1">
+            <img class="insta1pic" src="images/Flower 01.png">
+          </div>
+          <div class="insta2">
+            <img class="insta2pic" src="images/Rectangle 4.png">
+          </div>
+          <div class="insta3">
+            <img class="insta3pic" src="images/Rectangle 5.png">
+          </div>
+          <div class="insta4">
+            <img class="insta4pic" src="images/Rectangle 6.png">
+          </div>
+          
+        </div>
+     </div>
+
+     <div class="latestDeal">
+     
+        <img class="lastImage" src="images/Rectangle 9.png" >
+        
+          <div class="absoluteWriting">
+            <h3 class="bold3"> Get The Latest Deal </h3>
+          <p class="notBold3"> $30 coupon for first shopping</p>
+          <input class="searchBox" type="search" placeholder="Enter your email here...">
+            <button class="subscribe"> Subscribe</button>
+          </div>
+        
+     </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <p class="flowerShop"><span class="floweR">Flower</span>Shop</p>
+      <p class="lastPart"> It is a long established fact that a reader will be distracted by the readable </p>
+        <p class="lastPart">content of a page when looking at its layout.</p>
+       <p class="lastPart"> @2020-2023, FlowerShop.com. All rights reserved.</p>
+    </div>
+</footer>
+  
+</body>
+</html>
